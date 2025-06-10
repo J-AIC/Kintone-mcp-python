@@ -46,9 +46,6 @@ kintone-mcp-server/
 │       ├── recommended.json            # 推奨設定
 │       ├── debug.json                  # デバッグ用設定
 │       └── setup-guide.md              # セットアップガイド
-├── docs/                               # ドキュメント
-│   ├── development/                    # 開発者向け文書
-│   └── migration/                      # 移行関連文書
 ├── tests/                              # テスト
 ├── tools/                              # 開発ツール
 └── archive/                            # 開発履歴アーカイブ
