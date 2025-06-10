@@ -1,6 +1,6 @@
 # Kintone MCP Server
 
-Kintone MCP (Model Context Protocol) Server は、MCPクライアントを通じてKintone API機能を利用できるようにするサーバーです。
+Kintone MCP (Model Context Protocol) Server は、Kintone API機能を利用できるようにするMCPサーバーです。
 
 ## 🎯 概要
 
