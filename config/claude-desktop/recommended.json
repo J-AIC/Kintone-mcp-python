@@ -1,0 +1,42 @@
+{
+  "mcpServers": {
+    "kintone-complete-nodejs-49tools": {
+      "command": "python",
+      "args": ["/path/to/kintone-mcp-server/src/python/main.py"],
+      "cwd": "/path/to/kintone-mcp-server/src/python",
+      "env": {
+        "PYTHONPATH": "/path/to/kintone-mcp-server/src/python",
+        "LOG_LEVEL": "CRITICAL",
+        "DISABLE_LOGGING": "true"
+      }
+    }
+  },
+  "_metadata": {
+    "version": "2.0.0",
+    "description": "Kintone MCP Server - リファクタリング済み版",
+    "features": [
+      "整理されたフォルダ構造",
+      "全47ツールをNode.js @kintone/rest-api-client経由で実行",
+      "完全Node.js移行により統一されたアーキテクチャ",
+      "安定したKintone API連携",
+      "保守性とスケーラビリティの向上"
+    ],
+    "tools_count": 47,
+    "implementation": "Node.js wrapper via Python MCP server",
+    "authentication": "Username/Password or API Token",
+    "recommended_for": "Production use",
+    "structure": "Clean, organized folder hierarchy"
+  },
+  "_usage_instructions": {
+    "setup": [
+      "1. src/python/.envファイルを設定してKintone認証情報を追加",
+      "2. src/nodejs/のNode.js依存関係がインストールされていることを確認",
+      "3. Claude Desktopでkintone-complete-nodejs-49toolsを選択"
+    ],
+    "authentication_methods": [
+      "Username/Password: KINTONE_DOMAIN, KINTONE_USERNAME, KINTONE_PASSWORD",
+      "API Token: KINTONE_DOMAIN, KINTONE_API_TOKEN"
+    ],
+    "folder_structure": "src/python (MCP Server), src/nodejs (API Wrapper), config/ (Settings), docs/ (Documentation)"
+  }
+} 

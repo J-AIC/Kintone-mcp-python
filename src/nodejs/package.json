@@ -1,0 +1,25 @@
+{
+  "name": "kintone-nodejs-wrapper",
+  "version": "1.0.0",
+  "main": "wrapper.mjs",
+  "type": "module",
+  "scripts": {
+    "start": "node wrapper.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "kintone",
+    "wrapper",
+    "rest-api-client",
+    "nodejs"
+  ],
+  "license": "MIT",
+  "description": "Node.js wrapper for Kintone REST API client, used by Python MCP server",
+  "dependencies": {
+    "@kintone/rest-api-client": "^5.7.1",
+    "dotenv": "^16.5.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

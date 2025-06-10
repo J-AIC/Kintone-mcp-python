@@ -1,0 +1,26 @@
+{
+  "mcpServers": {
+    "kintone-debug": {
+      "command": "python",
+      "args": ["/path/to/kintone-mcp-server/src/python/main.py"],
+      "cwd": "/path/to/kintone-mcp-server/src/python",
+      "env": {
+        "PYTHONPATH": "/path/to/kintone-mcp-server/src/python",
+        "LOG_LEVEL": "DEBUG",
+        "MCP_LOG_LEVEL": "DEBUG",
+        "PYTHON_LOGGING_LEVEL": "DEBUG"
+      }
+    }
+  },
+  "_debug_notes": {
+    "purpose": "Claude Desktop向けデバッグ設定",
+    "expected_tools": 47,
+    "actual_claude_tools": 45,
+    "difference": 2,
+    "next_steps": [
+      "Claude Desktopのログを確認",
+      "ツール登録エラーの特定",
+      "スキーマ検証エラーの確認"
+    ]
+  }
+} 
